@@ -11,7 +11,7 @@ module.exports = {
 			black: '#000',
 			orange: '#AD5E26',
 			maroon: '#741641',
-			gray: '#CAD0D8',
+			gray: '#747474',
 			red: '#C1002D',
 			green: '#48BB86',
 			blue: "#3A5CAA",
@@ -22,12 +22,12 @@ module.exports = {
 			background: '#1f1f1f',
 		},
 		screens: {
-			'2xl': '1920px',
-			xl: '1440px',
-			lg: '1024px',
-			md: '815px',
+			xs: { max: '420px', min: "320px" },
 			sm: '575px',
-			xs: { max: '420px' },
+			md: '815px',
+			lg: '1024px',
+			xl: '1440px',
+			'2xl': '1920px',
 		},
 		extend: {
 			gridTemplateRows: {

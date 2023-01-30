@@ -1,9 +1,9 @@
 export const menu = [
-	{ title: 'about', to: '/about', active: true, live: false },
-	{ title: 'why devita', to: '/why-devita', active: false, live: false },
-	{ title: 'features', to: '/features', active: false, live: false },
-	{ title: 'media', to: '/media', active: false, live: false },
-	{ title: 'resources', to: '/resources', active: false, live: true },
+	{ title: 'about', to: '/about', active: true, live: true },
+	{ title: 'why devita', to: '/why-devita', active: false, live: true },
+	{ title: 'features', to: '/features', active: false, live: true },
+	{ title: 'media', to: '/media', active: false, live: true },
+	{ title: 'resources', to: '/resources', active: false, live: false },
 	{ title: 'admin', to: '/admin', active: false, live: false },
 	{ title: 'governance', to: '/governance', active: false, live: false },
 ]

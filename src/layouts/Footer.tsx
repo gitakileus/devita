@@ -77,7 +77,9 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<span className="text-[#B8B8B8] mt-[141px]">{t(`Copyright © Devita 2022. All rights reserved`)}</span>
+			<span className="mt-[141px] text-[#B8B8B8]">
+				{t(`Copyright © Devita 2022. All rights reserved`)}
+			</span>
 		</div>
 	)
 }

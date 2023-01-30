@@ -24,7 +24,7 @@
 	position: absolute;
 	width: 140px;
 	height: 140px;
-	left: 1001px;
+	right: 300px;
 	top: 366px;
 	border-radius: 100%;
 
@@ -96,7 +96,37 @@
 	height: 72px;
 	right: 171px;
 	top: 172px;
-  border-radius: 100%;
+	border-radius: 100%;
 
 	background: linear-gradient(180deg, #3a5caa 26.88%, #48bb86 120.52%);
+}
+
+@media screen and (max-width: 1200px) {
+	.circle-tl-1 {
+		left: 150px;
+	}
+	.circle-tl-2 {
+		left: 300px;
+	}
+	.circle-center {
+		right: 150px;
+	}
+	.circle-tr {
+		right: 120px;
+	}
+	.circle-br-1 {
+		right: 300px;
+	}
+	.box-br-1 {
+		right: 30px;
+	}
+	.box-br-2 {
+		right: 130px;
+	}
+	.circle-bl {
+		left: 120px;
+	}
+	.box-bl {
+		left: 100px;
+	}
 }

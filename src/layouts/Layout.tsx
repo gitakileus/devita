@@ -16,7 +16,7 @@ const Layout = (props: Props) => {
 			<Helmet>
 				<title>{title}</title>
 			</Helmet>
-			<div className="flex flex-col overflow-x-hidden bg-background/80 bg-cover">
+			<div className="relative flex flex-col overflow-x-hidden bg-background/80 bg-cover">
 				<Header />
 				<main className="relative flex w-full flex-col">{children}</main>
 				<Footer />
