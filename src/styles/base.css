@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+	@apply box-border p-0 m-0 transition-all duration-200 ease-in-out;
+}
+
+@font-face {
+	font-family: 'GimhaeGaya';
+	src: url('/public/fonts/GimhaeGayaR.ttf');
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+}
+
+.container {
+	@apply mx-auto !w-[1552px] 2xl:mx-0 2xl:!w-full 2xl:px-14 lg:px-10 sm:px-6;
+}
+
+input,
+textarea {
+	@apply outline-none;
+}
+
+.english-class,
+.english-class button,
+.english-class input {
+	@apply font-[Poppins];
+}
+
+.korean-class,
+.korean-class button,
+.korean-class input {
+	@apply font-[GimhaeGaya];
+}
+
+.social-links a {
+	@apply flex h-[30px] w-[30px] flex-shrink-0 items-center justify-center rounded-full;
+}
+
+.social-links a:hover {
+	@apply bg-[#FFF3];
+}
+
+.social-links a svg {
+	@apply w-4 h-4;
+}
+
+.social-links svg,
+.social-links svg path {
+	@apply fill-primary;
+}
+
+header .social-links {
+	@apply flex gap-3;
+}
+
+header .social-links > p {
+	@apply mt-1 text-gray;
+}
+
+header .social-links > div {
+	@apply grid grid-cols-3 gap-6 mt-0;
+}
+
+header .social-links > div a {
+	@apply h-9 w-9;
+}
+header .social-links > div a svg {
+	@apply w-6 h-6;
+}
+
+.recharts-cartesian-axis-tick {
+	@apply text-sm sm:text-[8px];
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.why-title {
+	text-shadow: 0px 0px 10px rgb(218, 119, 119);
+}

@@ -1,0 +1,19 @@
+@keyframes scale {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.animate-scale {
+	transform-origin: center;
+	animation-name: scale;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.anim {
+	@apply transition-all duration-200 ease-in-out;
+}

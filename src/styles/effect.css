@@ -1,0 +1,102 @@
+.circle-tl-1 {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	left: 188px;
+	top: 98px;
+	border-radius: 100%;
+
+	background: linear-gradient(180.2deg, #48bb86 31.49%, #3a5caa 99.82%);
+}
+
+.circle-tl-2 {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 421px;
+	top: 243px;
+	border-radius: 100%;
+
+	background: linear-gradient(180.2deg, #48bb86 31.49%, #3a5caa 99.82%);
+}
+
+.circle-center {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 1001px;
+	top: 366px;
+	border-radius: 100%;
+
+	background: linear-gradient(180deg, #3a5caa 0%, #48bb86 100%);
+}
+
+.circle-bl {
+	@apply absolute left-40 bottom-[87px] h-[173px] w-[173px] rounded-full bg-gradient-to-b from-[#3A5CAA] to-green;
+}
+
+.box-bl {
+	position: absolute;
+	width: 513px;
+	height: 5px;
+	left: 199px;
+	bottom: 112px;
+
+	background: linear-gradient(90.15deg, #3a5caa 4.71%, #9aa7a6 48.23%, #48bb86 72.07%);
+	border-radius: 20px;
+}
+
+.circle-br-1 {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	right: 453px;
+	bottom: 180px;
+	border-radius: 100%;
+
+	background: linear-gradient(180deg, #3a5caa 0%, #48bb86 100%);
+}
+
+.circle-br-2 {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: -40px;
+	top: -21px;
+	border-radius: 100%;
+
+	background: linear-gradient(180.2deg, #48bb86 31.49%, #3a5caa 99.82%);
+}
+
+.box-br-1 {
+	position: absolute;
+	width: 457px;
+	height: 5px;
+	right: 90px;
+	bottom: 230px;
+
+	background: linear-gradient(90.15deg, #3a5caa 4.71%, #9aa7a6 48.23%, #48bb86 72.07%);
+	border-radius: 20px;
+}
+
+.box-br-2 {
+	position: absolute;
+	width: 513px;
+	height: 5px;
+	right: 200px;
+	top: 18px;
+
+	background: linear-gradient(90.15deg, #3a5caa 4.71%, #9aa7a6 48.23%, #48bb86 72.07%);
+	border-radius: 20px;
+}
+
+.circle-tr {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	right: 171px;
+	top: 172px;
+  border-radius: 100%;
+
+	background: linear-gradient(180deg, #3a5caa 26.88%, #48bb86 120.52%);
+}

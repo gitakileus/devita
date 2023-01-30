@@ -1,0 +1,59 @@
+.title {
+	@apply text-3xl font-medium leading-normal text-primary lg:text-2xl sm:text-xl sm:font-semibold;
+}
+
+.title-2 {
+	@apply text-[28px] leading-normal text-primary lg:text-xl md:text-base;
+}
+
+.subtitle {
+	@apply text-xl text-primary md:text-base;
+}
+
+.subtitle-2 {
+	@apply text-lg text-primary;
+}
+
+.modal-header {
+	@apply text-[25px] font-semibold text-primary underline sm:text-sm;
+}
+
+.modal-body-1 {
+	@apply text-xl text-primary;
+}
+
+.modal-body-2 {
+	@apply text-lg text-primary sm:text-base;
+}
+
+.text-1 {
+	@apply text-xl text-primary xl:text-lg md:text-base sm:text-xs;
+}
+
+.text-2 {
+	@apply text-[25x] text-primary lg:text-xl md:text-[15px];
+}
+
+.text-3 {
+	@apply text-sm text-gray md:text-xs;
+}
+
+.text-4 {
+	@apply text-lg text-primary;
+}
+
+.table-header {
+	@apply text-center text-[15px] font-semibold text-primary sm:text-[10px];
+}
+
+.table-header-2 {
+	@apply text-lg font-medium text-orange lg:text-base md:text-[11px];
+}
+
+.table-body {
+	@apply text-center text-[15px] font-normal text-gray sm:text-[10px];
+}
+
+.table-body-2 {
+	@apply text-lg font-light text-primary lg:text-base md:text-[11px];
+}

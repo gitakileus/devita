@@ -1,0 +1,44 @@
+.blur-button {
+	display: flex;
+	background-color: transparent;
+	position: relative;
+	color: white;
+	cursor: pointer;
+	border-radius: 30px;
+}
+.blur-button:focus {
+	outline: none;
+}
+.blur-button:before {
+	position: absolute;
+	content: '';
+	width: 120%;
+	transform: translateX(-8%);
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50%;
+	border-radius: 30px;
+}
+.blur-button span {
+	position: relative;
+}
+.blur-button:before {
+	transition: all 0.3s ease;
+}
+.blur-button:hover:before {
+	background-color: #3a5caa;
+	-webkit-filter: blur(13px);
+	filter: blur(13px);
+}
+
+.polygon-btn {
+	clip-path: polygon(11% 0, 100% 0, 100% 74%, 90% 100%, 0 100%, 0 26%);
+	transition: all 0.15s ease;
+}
+.polygon-btn:hover {
+	clip-path: polygon(0 0, 91% 0, 100% 28%, 100% 100%, 9% 99%, 0 71%);
+}
