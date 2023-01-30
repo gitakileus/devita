@@ -1,8 +1,7 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { ReactComponent as MenuIcon } from '@material-icons/svg/svg/menu/outline.svg'
-import { ReactComponent as CloseIcon } from '@material-icons/svg/svg/close/outline.svg'
+// import { ReactComponent as CloseIcon } from '@material-icons/svg/svg/close/outline.svg'
 
 import { menu } from 'config'
 import LanguageSelect from 'components/LanguageSelect'
